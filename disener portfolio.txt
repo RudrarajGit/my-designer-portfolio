@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rudraraj | Anime-Inspired Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Zen+Tokyo+Zoo&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+      font-family: 'Orbitron', sans-serif;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      background-image: url('https://wallpaperaccess.com/full/4690135.jpg');
+      background-size: cover;
+      background-position: center;
+      backdrop-filter: brightness(0.5);
+      color: #fff;
+      text-shadow: 0 0 20px #f0f;
+    }
+
+    header h1 {
+      font-size: 3.2rem;
+      margin-bottom: 10px;
+      font-family: 'Zen Tokyo Zoo', cursive;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 30px rgba(255, 0, 255, 0.1);
+      backdrop-filter: blur(8px);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 40px rgba(255, 0, 255, 0.3);
+    }
+
+    h2 {
+      color: #ff7de9;
+      margin-bottom: 15px;
+      font-size: 1.7rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "✨ ";
+      margin-right: 8px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .skill {
+      background: #ff80ff30;
+      padding: 10px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #ffbdf7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      background-color: #1a1a2e;
+      color: #aaa;
+    }
+
+    a {
+      color: #80dfff;
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rudraraj</h1>
+    <p>Anime-Inspired Designer • AI Crafter • Digital Explorer</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>🌸 About Me</h2>
+      <p>I'm a creative spirit inspired by anime, design, and technology. I blend AI tools and design platforms to create unique digital content — from posters to portfolio sites. I hold a Wadhwani Foundation certificate in Effective Speaking & Listening.</p>
+    </div>
+
+    <div class="card">
+      <h2>🎨 What I Do</h2>
+      <ul>
+        <li>Poster & thumbnail design with an anime vibe</li>
+        <li>Resume & portfolio writing powered by AI</li>
+        <li>Basic websites with HTML/CSS</li>
+        <li>Custom content for digital creators</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>💫 Skills</h2>
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Canva</div>
+        <div class="skill">ChatGPT</div>
+        <div class="skill">C++</div>
+        <div class="skill">Poster Design</div>
+        <div class="skill">Typing</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📩 Contact Me</h2>
+      <p>Email: <a href="mailto:rudrarajchakraborty@gmail.com">rudrarajchakraborty@gmail.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/919547177478">+91-9547177478</a></p>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Rudraraj | Designed with 💖 & Anime Energy
+  </footer>
+
+</body>
+</html>
